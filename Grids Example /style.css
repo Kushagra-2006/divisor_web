@@ -1,0 +1,33 @@
+.grid{
+display: grid;
+gap:1rem;
+grid-template-columns: repeat(12,1fr);
+grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+grid-auto-rows: 240px;
+/* Impilcit Grids*/
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background: cadetblue;
+    font-size: 3rem;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+@media screen and (min-width:600px)
+{
+    .card-tall{
+        grid-row:span 2/auto;
+    
+    }
+    .card-wide{
+        grid-column:span 2/auto;
+    }
+}

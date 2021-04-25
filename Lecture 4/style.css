@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url('../Lecture\ 1/photo.png'); */
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+td{
+    border:1px solid black;
+    padding:10px;
+}
+th{
+    border:1px solid black;
+    padding:10px;
+    
+}
+table{
+    border-collapse: collapse;
+
+}
