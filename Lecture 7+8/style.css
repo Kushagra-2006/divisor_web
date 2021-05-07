@@ -3,19 +3,19 @@
     padding:0px;
     box-sizing: border-box;
 }
-a {
+/* a {
   font-size: 21px;
   border: 2px solid black;
   padding: 10px 20px;
   /* margin: 20px; */
-  display: block;
+  /* display: block; */
   /* width: 90px; */
-
+/* 
   border-radius: 5px;
   text-decoration: none;
   margin: 300px 20px;
-}
-a:link {
+} */
+/* a:link {
   color: green;
 }
 a:visited {
@@ -26,7 +26,7 @@ a:hover {
 }
 a:active {
   color: darkcyan;
-}
+} */ 
 p{
     border:2px solid black;
     margin:20px;
@@ -87,5 +87,59 @@ p{
     margin:auto;
     margin-top: -50px;
     position: relative;
-    z-index: 100;
+    z-index: 300;
+    background-color: wheat;
+}
+.overlay{
+  position: relative;
+    /* background: crimson; */
+    height: 300px;
+
+}
+.first-div{
+    font-size: 30px;
+    color:white;
+    /* position: absolute;  // If we want to place this below the overlay
+    z-index: -1; */
+   
+    border:5px solid black;
+    background-color: blue;
+    position: relative;
+    z-index: 200;
+    
+}
+.main-color{
+  
+  width: 200px;
+  height: 200px;
+  background-color:green;
+  border:5px solid black;
+  position: relative;
+  z-index: -1;
+ 
+}
+.overlay-black{
+  position: absolute;
+  background-color: rgba(187, 26, 26, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  
+}
+a{
+  padding:20px 40px;
+  border:2px solid black;
+  background-color: crimson;
+}
+a:hover{
+  background-color: rgb(107, 7, 27);
+
+}
+/* a::first-letter{
+  color:crimson;
+  font-size: 10px;
+} */
+.pseudo-element::first-letter{
+  font-size: 51px;
+  color:crimson
 }

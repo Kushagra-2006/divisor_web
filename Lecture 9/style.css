@@ -1,0 +1,55 @@
+
+*,::before,::after{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  
+}
+a{
+    font-size: 1.5rem;
+    color:green;
+}
+a:hover{
+    color:crimson;
+}
+a::first-letter{
+    color:white;
+}
+p::first-letter{
+    /* color: crimson; */
+    font-size: 40px;
+
+}
+/* p::before{
+   margin-left:100px;
+} */
+
+input{
+    padding: 60px;
+
+}
+
+
+
+.input-new[type="password"]{
+    padding:20px !important;
+}
+
+
+.input-new{
+    color:crimson;
+}
+
+
+.box-shadow-1{
+    padding:20px;
+    margin:40px;
+    /* border:2px solid black; */
+    box-shadow: 0 0 40px rgba(220, 20, 60,.1);
+}
+
+
+
+
+
+
