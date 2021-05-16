@@ -1,0 +1,41 @@
+h1{
+    color:green
+}
+
+.container{
+display: flex  ;
+/* flex-direction: column; */
+    background-color: aqua;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* height:1000px; */
+    align-content: flex-start;
+
+}
+.item{
+    background-color: crimson;
+    font-size: 20px;
+    padding: 20px;
+    margin:20px;
+}
+.i7{
+    height: 100px;
+
+}
+.i3{
+    /* align-self: flex-end; */
+
+}
+.i1{
+    /* align-self: flex-start; */
+    order:-400;
+    flex-grow: 2;
+}
+.i6{
+    order:-100;
+ /* flex-basis:200px;
+ flex-shrink: 0; */
+ /* flex:0 1 auto; */
+}
