@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .main-screen{
-    /* background-color: rgba(255, 165, 0,.2); */
+    background-color: rgba(255, 165, 0,.2);
 
 }
 
@@ -81,5 +81,78 @@ p{
     font-weight: 500;
     text-transform: uppercase;
     box-shadow: 0 2px 20px rgba(255, 165, 0,.5);
+
+}
+.about-us{
+    /* margin:70px 0; */
+    padding:100px 0;
+
+    background-color: rgb(251, 251, 251);
+}
+.internal-heading{
+    text-align: center;
+}
+.secondary-heading{
+    font-weight: 500;
+    font-size: 19px;
+    color:orange;
+}
+.subtext{
+    font-weight: 500;
+    font-size: 14px;
+    color:crimson;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    padding:10px 0px;
+
+}
+.flex-start{
+    display: flex;
+    flex-direction: row;
+    margin:50px 0px;
+    justify-content: space-between;
+}
+.card{
+    box-shadow: 0 10px 20px rgba(255, 165, 0,.1);
+    padding:40px 20px;
+    max-width: 250px;
+    /* margin:0 25px; */
+    /* border:.5px solid rgba(255, 165, 0,.1); */
+   background-color: white;
+}
+.icon-big{
+    font-size: 65px;
+    color:orange;
+}
+.pricing{
+    margin:100px 0px;
+}
+.pricing-card
+{
+    padding:40px 30px;
+    /* border:2px solid green; */
+    box-shadow: 10px 10px 20px rgba(3, 92, 3,.1);
+    width: 300px;
+}
+.text-big{
+    font-size: 45px;
+    /* padding:0 250px ; */
+}
+.main-text{
+    padding: 7px 0px;
+}
+/* .padding__top__bottom{
+    padding: 20px 0px;
+} */
+.btn-new{
+    display: block;
+    background-color: green ;
+    padding:10px 30px;
+    margin:20px 0px 0px 0px;
+    color:white
+}
+.btn-new:hover{
+    background-color:rgb(3, 92, 3);
+    cursor: pointer;
 
 }
